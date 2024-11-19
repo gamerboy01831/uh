@@ -1,0 +1,34 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Ixurt Hub👅")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Soccer Kick Simulator")
+
+KillingCheats:CreateButton("Inf Power!", function()
+local args = {
+    [1] = "Power",
+    [2] = 99999999999,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.AddValue:FireServer(unpack(args))
+end)
+
+KillingCheats:CreateButton("Inf Wins!", function()
+local args = {
+    [1] = "Wins",
+    [2] = 99999999999,
+    [3] = false
+}
+
+game:GetService("ReplicatedStorage").Events.AddValue:FireServer(unpack(args))
+    end)
+
+KillingCheats:CreateButton("Inf Spins!", function()
+local function fireMultiplierEvent(multiplierName, local args = {
+    [1] = "Spins",
+    [2] = 99999
+}
+
+game:GetService("ReplicatedStorage").Events.AddValue:FireServer(unpack(args))
+end)
