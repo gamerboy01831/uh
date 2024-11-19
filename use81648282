@@ -22,10 +22,10 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.AddValue:FireServer(unpack(args))
-    end)
+end)
 
 KillingCheats:CreateButton("Inf Spins!", function()
-local function fireMultiplierEvent(multiplierName, local args = {
+local args = {
     [1] = "Spins",
     [2] = 99999
 }
